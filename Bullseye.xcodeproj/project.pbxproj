@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD58908D235E47A3007A362D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		CDFC15A4235DBE3400BC8B30 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +66,7 @@
 				CDFC15B0235DBE3400BC8B30 /* AppDelegate.swift */,
 				CDFC15B2235DBE3400BC8B30 /* SceneDelegate.swift */,
 				CDFC15B4235DBE3400BC8B30 /* ContentView.swift */,
+				CD58908D235E47A3007A362D /* New Group */,
 				CDFC15B6235DBE3600BC8B30 /* Assets.xcassets */,
 				CDFC15BB235DBE3600BC8B30 /* LaunchScreen.storyboard */,
 				CDFC15BE235DBE3600BC8B30 /* Info.plist */,
