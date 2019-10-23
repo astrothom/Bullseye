@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD561B4A2360C851000D57C7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD561B492360C851000D57C7 /* AboutView.swift */; };
 		CDFC15B1235DBE3400BC8B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC15B0235DBE3400BC8B30 /* AppDelegate.swift */; };
 		CDFC15B3235DBE3400BC8B30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC15B2235DBE3400BC8B30 /* SceneDelegate.swift */; };
 		CDFC15B5235DBE3400BC8B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC15B4235DBE3400BC8B30 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD561B492360C851000D57C7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		CDFC15AD235DBE3400BC8B30 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFC15B0235DBE3400BC8B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFC15B2235DBE3400BC8B30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,13 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD58908D235E47A3007A362D /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
 		CDFC15A4235DBE3400BC8B30 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +61,11 @@
 				CDFC15B0235DBE3400BC8B30 /* AppDelegate.swift */,
 				CDFC15B2235DBE3400BC8B30 /* SceneDelegate.swift */,
 				CDFC15B4235DBE3400BC8B30 /* ContentView.swift */,
-				CD58908D235E47A3007A362D /* New Group */,
 				CDFC15B6235DBE3600BC8B30 /* Assets.xcassets */,
 				CDFC15BB235DBE3600BC8B30 /* LaunchScreen.storyboard */,
 				CDFC15BE235DBE3600BC8B30 /* Info.plist */,
 				CDFC15B8235DBE3600BC8B30 /* Preview Content */,
+				CD561B492360C851000D57C7 /* AboutView.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -154,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD561B4A2360C851000D57C7 /* AboutView.swift in Sources */,
 				CDFC15B1235DBE3400BC8B30 /* AppDelegate.swift in Sources */,
 				CDFC15B3235DBE3400BC8B30 /* SceneDelegate.swift in Sources */,
 				CDFC15B5235DBE3400BC8B30 /* ContentView.swift in Sources */,
