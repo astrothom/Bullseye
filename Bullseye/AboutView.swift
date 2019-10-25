@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AboutView: View {
 
-  let backgroundColor = Color(red: 255.0 / 255.0, green: 214.0 / 255.0, blue: 179.0 / 255.0)
+  let beige = Color(red: 255.0 / 255.0, green: 214.0 / 255.0, blue: 179.0 / 255.0)
   
   struct AboutHeadingStyle: ViewModifier {
     func body(content: Content) -> some View {
@@ -41,14 +41,17 @@ struct AboutView: View {
   }
   
   var body: some View {
-    VStack {
-      Text("🎯 Bullseye 🎯").modifier(AboutHeadingStyle())
-      Text("This is Bullseye, the game where you can win points and earn fame by dragging a slider.").modifier(AboutBodyStyle())
-      Text("Your goal is to place the slider as close as possible to the target value. The closer you are, the more points you score.").modifier(AboutBodyStyle())
-      Text("Enjoy!").modifier(AboutBodyStyle())
+    Group {
+      VStack {
+          Text("🎯 Bullseye 🎯").modifier(AboutHeadingStyle())
+          Text("This is Bullseye, the game where you can win points and earn fame by dragging a slider.").modifier(AboutBodyStyle())
+          Text("Your goal is to place the slider as close as possible to the target value. The closer you are, the more points you score.").modifier(AboutBodyStyle())
+          Text("Enjoy!").modifier(AboutBodyStyle())
+        }
+      .navigationBarTitle("About title")
+      .background(beige)
     }
-  .navigationBarTitle("About title")
-  .background(backgroundColor)
+  .background(Image("Background"))
   }
 }
 
